@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: #F0F3F9;
+    color: #525f7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    /* max-width: 1000px; */
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex;   */
+    /* justify-content: space-between; */
+}
+
+.card {
+    overflow: hidden;
+    max-width: 350px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Separa "About" y "Chat" a los extremos del contenedor */
+.justify-between { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.buttons-wrapper {
+    padding: 20px;
+}
+
+.buttons-wrapper a {
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+.buttons-wrapper a:hover {
+    transform: translateY(-3px);
+}
+
+.buttons-wrapper a:nth-child(1) {
+    background: #11CDEF;
+}
+
+.buttons-wrapper a:nth-child(2) {
+    background: #172b4d;
+}
+
+.content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.smallNum {
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.description {
+    color: #aaa;
+    font-size: 0.82rem;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+
+.job {
+    background: #172b4d;
+    color: #eee;
+    padding: 20px 0;
+}
+
+.nativePlace {
+    font-size: 0.75rem;
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
